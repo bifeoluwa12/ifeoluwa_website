@@ -1,0 +1,50 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    width: 500px;
+    height: 70vh;
+    
+}
+.nav-bar{
+    width:500px;
+    height: 10vh;
+    background-color: red;
+}
+.section2{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 100px 400px;
+    grid-template-rows: 200px;
+}
+.SD{
+    background-color: blue;
+}
+.content{
+    background-color: brown;
+}
+.footer{
+    width: 500px;
+    height: 10vh;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 100px 150px 100px 150px;
+    grid-template-rows: 10vh;
+}
+.box1{
+    background-color: black;
+    
+}
+.box2{
+    background-color: purple;
+   
+}
+.box3{
+    background-color: orange;
+    
+}
+.box4{
+    background-color: blueviolet;
+   
+}
