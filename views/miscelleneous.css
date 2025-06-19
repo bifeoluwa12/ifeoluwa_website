@@ -1,0 +1,129 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: gray;
+}
+.navigation {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  gap: 10px;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.links {
+  font-size: 18px;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.btns > a > .btn1 {
+  color: blue;
+  background-color: white;
+  border-color: blue;
+  padding: 15px;
+}
+.btns > a > .btn2 {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  padding: 15px;
+}
+.hero-section {
+  background-color: gray;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.textandimage {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+ /* .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.img img{
+    align-items: center;
+
+}
+h1 {
+  color: black;
+  font-size: 30px;
+}
+p {
+  color: black;
+  font-size: 20px;
+}
+input {
+  width: 250px;
+  height: 15px;
+  border: 5px solid white;
+}
+.box {
+  background-color: white;
+  border-collapse: collapse;
+  width: max-content;
+  height: 30px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+button {
+  color: white;
+  background-color: blue;
+  padding: 10 px;
+  border-radius: 1px;
+}
+.cards {
+  margin:50px auto;
+  background-color: brown;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards1{
+    background-color: blue;
+    width: 50px;
+    height: fit-content;
+}
+.cards2{
+    background-color: yellow;
+    width: 50px;
+    height: fit-content;
+}
+.cards3{
+    background-color: green;
+    width: 50px;
+    height: fit-content;
+}
+.cards4{
+    background-color: orange;
+    width: 50px;
+    height: fit-content;
+}
